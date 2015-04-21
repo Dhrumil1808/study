@@ -120,6 +120,7 @@
                 
          
             <?php
+            echo "Hello world";
              $this->load->database();
                 $sql = "SELECT DISTINCT Category FROM categories";
                 $result = mysql_query($sql);
