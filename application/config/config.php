@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'https://cryptic-citadel-3874.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +44,7 @@ $config['index_page'] = 'index.php';
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
-$config['uri_protocol']	= 'REQUEST_URI';
+$config['uri_protocol']	= 'AUTO';
 
 /*
 |--------------------------------------------------------------------------
