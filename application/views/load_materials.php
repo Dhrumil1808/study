@@ -188,8 +188,8 @@
                     </div>
                     <div class="collpase navbar-collapse" id="example">
                         <ul class="nav navbar-nav">
-                            <li class ="xyz"><a href="/CodeIgniter_2.2.0/index.php/home/wish_list">Wish list</a></li>
-                            <li class="xyz"><a href="/CodeIgniter_2.2.0/index.php/my_account/account">My account</a></li>
+                            <li class ="xyz"><a href="/index.php/home/wish_list">Wish list</a></li>
+                            <li class="xyz"><a href="cryptic-citadel-3874.herokuapp.com/index.php/my_account/account">My account</a></li>
                             
                             <li class="xyz"><a href="/CodeIgniter_2.2.0/index.php/login/vendor_login">Sell</a></li>
                             <?php
