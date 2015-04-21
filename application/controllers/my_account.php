@@ -38,7 +38,7 @@ class My_Account extends CI_Controller {
 		{
 			echo "<script language=\"JavaScript\">\n";
             echo "alert('Kindly sign in to view your account!');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/student_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/student_login'";
             echo "</script>";
 		}
 	}
@@ -66,7 +66,7 @@ class My_Account extends CI_Controller {
         {
         	echo "<script language=\"JavaScript\">\n";
             echo "alert('Kindly sign in to edit!');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/home/load_materials'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/home/load_materials'";
             echo "</script>";
         }
 	}
@@ -104,7 +104,7 @@ class My_Account extends CI_Controller {
 
 				echo "<script language=\"JavaScript\">\n";
 		        echo "alert('Profile updated!');\n";
-		        echo "window.location='/CodeIgniter_2.2.0/index.php/my_account/account'";
+		        echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/my_account/account'";
 		        echo "</script>";
 			}
 		}
@@ -112,7 +112,7 @@ class My_Account extends CI_Controller {
     	{
 	    	echo "<script language=\"JavaScript\">\n";
 	        echo "alert('Kindly sign in to change address!');\n";
-	        echo "window.location='/CodeIgniter_2.2.0/index.php/login/student_login'";
+	        echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/student_login'";
 	        echo "</script>";
     	}
 	}
@@ -154,7 +154,7 @@ class My_Account extends CI_Controller {
             echo "<script language=\"JavaScript\">\n";
         
             echo "alert('Session has expired . Please Re-login');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/student_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/student_login'";
             echo "</script>";       
         }
     }
@@ -245,7 +245,7 @@ class My_Account extends CI_Controller {
 			echo "<script language=\"JavaScript\">\n";
         
             echo "alert('Session has expired . Please Re-login');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/student_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/student_login'";
             echo "</script>";
 		}
 		
@@ -271,7 +271,7 @@ class My_Account extends CI_Controller {
 			echo "<script language=\"JavaScript\">\n";
         
             echo "alert('Session has expired . Please Re-login');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/student_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/student_login'";
             echo "</script>";
 		}
 	}
@@ -303,7 +303,7 @@ class My_Account extends CI_Controller {
                     mysql_query($update);
                     echo "<script language=\"JavaScript\">\n";
                     echo "alert('Contact Number updated!');\n";
-                    echo "window.location='/CodeIgniter_2.2.0/index.php/my_account/vendor_account'";
+                    echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/my_account/vendor_account'";
                     echo "</script>";   
 
                 }
@@ -313,7 +313,7 @@ class My_Account extends CI_Controller {
         {
             echo "<script language=\"JavaScript\">\n";
             echo "alert('Kindly sign in to view your account!');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/vendor_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/vendor_login'";
             echo "</script>";
         }
     }
@@ -345,7 +345,7 @@ class My_Account extends CI_Controller {
                 mysql_query($update);
                 echo "<script language=\"JavaScript\">\n";
                 echo "alert('Business Info updated!');\n";
-                echo "window.location='/CodeIgniter_2.2.0/index.php/my_account/vendor_account'";
+                echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/my_account/vendor_account'";
                 echo "</script>";
 
             }
@@ -355,7 +355,7 @@ class My_Account extends CI_Controller {
         {
             echo "<script language=\"JavaScript\">\n";
             echo "alert('Kindly sign in to view your account!');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/vendor_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/vendor_login'";
             echo "</script>";
         }
     }
@@ -393,7 +393,7 @@ class My_Account extends CI_Controller {
 
                 echo "<script language=\"JavaScript\">\n";
                 echo "alert('Profile updated!');\n";
-                echo "window.location='/CodeIgniter_2.2.0/index.php/my_account/vendor_account'";
+                echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/my_account/vendor_account'";
                 echo "</script>";
             }
         }
@@ -401,7 +401,7 @@ class My_Account extends CI_Controller {
         {
             echo "<script language=\"JavaScript\">\n";
             echo "alert('Kindly sign in to change address!');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/vendor_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/vendor_login'";
             echo "</script>";
         }
     }
@@ -433,7 +433,7 @@ class My_Account extends CI_Controller {
                 echo "<script language=\"JavaScript\">\n";
         
                 echo "alert('paasword have been updated');\n";
-                echo "window.location='/CodeIgniter_2.2.0/index.php/my_account/vendor_account'";
+                echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/my_account/vendor_account'";
                 echo "</script>";       
             }
 
@@ -443,7 +443,7 @@ class My_Account extends CI_Controller {
             echo "<script language=\"JavaScript\">\n";
         
             echo "alert('Session has expired . Please Re-login');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/vendor_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/vendor_login'";
             echo "</script>";       
         }
     }
@@ -489,7 +489,7 @@ class My_Account extends CI_Controller {
                                         
                                                         'so you need to verify Your email ID by clicking on link below'."<br/>".
                                         
-                                        '<a href=http://localhost/CodeIgniter_2.2.0/index.php/signup/validate_user?User='.$vendor.'>Login Link</a>'
+                                        '<a href=https://cryptic-citadel-3874.herokuapp.com/index.php/signup/validate_user?User='.$vendor.'>Login Link</a>'
                                          );
                              
                 $this->email->send();
@@ -498,7 +498,7 @@ class My_Account extends CI_Controller {
                 echo "<script language=\"JavaScript\">\n";
         
                 echo "alert('Email has been updated. Sign into your new email account to verify it.');\n";
-                echo "window.location='/CodeIgniter_2.2.0/index.php/login/vendor_login'";
+                echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/vendor_login'";
                 echo "</script>";       
             }
         }
@@ -507,7 +507,7 @@ class My_Account extends CI_Controller {
             echo "<script language=\"JavaScript\">\n";
         
             echo "alert('Session has expired . Please Re-login');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/vendor_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/vendor_login'";
             echo "</script>";       
         }
             
@@ -539,7 +539,7 @@ class My_Account extends CI_Controller {
                     mysql_query($update);
                     echo "<script language=\"JavaScript\">\n";
                     echo "alert('Contact Number updated!');\n";
-                    echo "window.location='/CodeIgniter_2.2.0/index.php/my_account/admin_account'";
+                    echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/my_account/admin_account'";
                     echo "</script>";   
 
                 }
@@ -549,7 +549,7 @@ class My_Account extends CI_Controller {
         {
             echo "<script language=\"JavaScript\">\n";
             echo "alert('Kindly sign in to view your account!');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/admin_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/admin_login'";
             echo "</script>";
         }
     }
@@ -581,7 +581,7 @@ class My_Account extends CI_Controller {
                 echo "<script language=\"JavaScript\">\n";
         
                 echo "alert('paasword have been updated');\n";
-                echo "window.location='/CodeIgniter_2.2.0/index.php/my_account/admin_account'";
+                echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/my_account/admin_account'";
                 echo "</script>";       
             }
 
@@ -591,7 +591,7 @@ class My_Account extends CI_Controller {
             echo "<script language=\"JavaScript\">\n";
         
             echo "alert('Session has expired . Please Re-login');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/admin_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/admin_login'";
             echo "</script>";       
         }
     }
@@ -637,7 +637,7 @@ class My_Account extends CI_Controller {
                                         
                                                         'so you need to verify Your email ID by clicking on link below'."<br/>".
                                         
-                                        '<a href=http://localhost/CodeIgniter_2.2.0/index.php/signup/validate_user?User='.$admin.'>Login Link</a>'
+                                        '<a href=https://cryptic-citadel-3874.herokuapp.com/index.php/signup/validate_user?User='.$admin.'>Login Link</a>'
                                          );
                              
                 $this->email->send();
@@ -646,7 +646,7 @@ class My_Account extends CI_Controller {
                 echo "<script language=\"JavaScript\">\n";
         
                 echo "alert('Email has been updated. Sign into your new email account to verify it.');\n";
-                echo "window.location='/CodeIgniter_2.2.0/index.php/login/admin_login'";
+                echo "window.location=https://cryptic-citadel-3874.herokuapp.com/index.php/login/admin_login'";
                 echo "</script>";       
             }
         }
@@ -655,7 +655,7 @@ class My_Account extends CI_Controller {
             echo "<script language=\"JavaScript\">\n";
         
             echo "alert('Session has expired . Please Re-login');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/admin_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/admin_login'";
             echo "</script>";       
         }
             
@@ -692,7 +692,7 @@ class My_Account extends CI_Controller {
                     echo "<script language=\"JavaScript\">\n";
         
                     echo "alert('Account Number has been updated.');\n";
-                    echo "window.location='/CodeIgniter_2.2.0/index.php/my_account/admin_account'";
+                    echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/my_account/admin_account'";
                     echo "</script>";
                 }
             }       
@@ -703,7 +703,7 @@ class My_Account extends CI_Controller {
             echo "<script language=\"JavaScript\">\n";
         
             echo "alert('Session has expired . Please Re-login');\n";
-            echo "window.location='/CodeIgniter_2.2.0/index.php/login/admin_login'";
+            echo "window.location='https://cryptic-citadel-3874.herokuapp.com/index.php/login/admin_login'";
             echo "</script>";
         }
     }
