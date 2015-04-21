@@ -188,10 +188,10 @@
                     </div>
                     <div class="collpase navbar-collapse" id="example">
                         <ul class="nav navbar-nav">
-                            <li class ="xyz"><a href="/home/wish_list">Wish list</a></li>
+                            <li class ="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/home/wish_list">Wish list</a></li>
                             <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/my_account/account">My account</a></li>
                             
-                            <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/login/vendor_login">Sell</a></li>
+                            <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/login/vendor_login">Sell</a></li>
                             <?php
                             if(isset($_COOKIE['student']))
                             {
@@ -199,9 +199,9 @@
                                 $users=$_COOKIE['student'];
                             ?>
                                 <li class="xyz"><a href="#"><?php echo "Hello "; echo $users; ?></a></li>
-                                <li class="xyz"><a href="/index.php/logout/logout_student">Logout</a></li>
-                                <li class="xyz"><a href="home/cart">Shopping cart</a></li>
-                                <li class="xyz"><a href="index.php/home/viewOrder">My Orders</a></li>
+                                <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/logout/logout_student">Logout</a></li>
+                                <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/home/cart">Shopping cart</a></li>
+                                <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/home/viewOrder">My Orders</a></li>
                             <?php
                                     if(isset($_COOKIE['admin']))
                                     {
