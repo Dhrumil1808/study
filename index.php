@@ -204,7 +204,7 @@ if (defined('ENVIRONMENT'))
 include_once './vendor/autoload.php';
 require_once BASEPATH.'core/CodeIgniter.php';
 
-require('../vendor/autoload.php');
+require('/vendor/autoload.php');
 
 $app = new Silex\Application();
 $app['debug'] = true;
