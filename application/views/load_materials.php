@@ -183,8 +183,8 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <?php if(isset($_COOKIE['admin'])){ ?> <a href="/CodeIgniter_2.2.0/index.php/admin_home/admin_page" class="navbar-brand">Admin Home</a><?php } ?>
-                        <a href="/CodeIgniter_2.2.0/index.php/home/load_materials" class="navbar-brand">StudyKart</a>
+                        <?php if(isset($_COOKIE['admin'])){ ?> <a href="https://cryptic-citadel-3874.herokuapp.com/index.php/admin_home/admin_page" class="navbar-brand">Admin Home</a><?php } ?>
+                        <a href="https://cryptic-citadel-3874.herokuapp.com/index.php/home/load_materials" class="navbar-brand">StudyKart</a>
                     </div>
                     <div class="collpase navbar-collapse" id="example">
                         <ul class="nav navbar-nav">
@@ -256,8 +256,8 @@
                             {
                             //echo $_COOKIE['student'];
                             ?>
-                            <li class="xyz"><a href="/CodeIgniter_2.2.0/index.php/login/student_login">Login</a></li>
-                            <li class="xyz"><a href="/CodeIgniter_2.2.0/index.php/signup/take_entries">Create an account</a></li>
+                            <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/login/student_login">Login</a></li>
+                            <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/signup/take_entries">Create an account</a></li>
               <?php
                             }
 
