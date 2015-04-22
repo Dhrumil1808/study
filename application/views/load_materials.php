@@ -256,8 +256,8 @@
                             {
                             //echo $_COOKIE['student'];
                             ?>
-                            <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/login/student_login">Login</a></li>
-                            <li class="xyz"><a href="https://cryptic-citadel-3874.herokuapp.com/index.php/signup/take_entries">Create an account</a></li>
+                            <li class="xyz"><a href="login/student_login">Login</a></li>
+                            <li class="xyz"><a href="signup/take_entries">Create an account</a></li>
               <?php
                             }
 
