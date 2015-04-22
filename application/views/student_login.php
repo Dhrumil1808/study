@@ -54,7 +54,7 @@
             <div class="account-wall">
                 <img class="profile-img" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120"
                     alt="">
-                <form method="POST" class="form-signin" action="login/match_student_data">
+                <form method="POST" class="form-signin" action="load_materials">
                 <input type="text" class="form-control" name="username" placeholder="User Name" required autofocus>
                 <input type="password" class="form-control" name="pswd" placeholder="Password" required>
                 <input class="btn btn-lg btn-primary btn-block" type="submit" value="Sign In"/>
