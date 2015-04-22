@@ -1,5 +1,6 @@
 {
 "require": {
-"monolog/monolog": "1.2.*"
+"monolog/monolog": "1.2.*",
+        "voku/simple-mysqli": "~1.8"
 }
 }
