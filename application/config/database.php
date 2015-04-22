@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = ' sql5.freemysqlhosting.net';
+$db['default']['hostname'] = 'sql5.freemysqlhosting.net';
 $db['default']['username'] = 'sql574925';
 $db['default']['password'] = 'uZ1%iI1*';
 $db['default']['database'] = 'sql574925';
