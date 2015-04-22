@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
+Hello how are You?? 
+    	<input type="submit" name="submit" /> 
 <head>
 	<meta charset="utf-8">
 	<title>Bootsrtap For Beginners</title>
@@ -23,9 +24,9 @@
 </head>
 
 <body>
+		Hello how are You??
     <header>
-    	Hello how are You?? 
-    	<input type="submit" name="submit" /> 
+    
            <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
                     <div class="container">
                         <div class="navbar-header">
