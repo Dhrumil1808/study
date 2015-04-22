@@ -24,7 +24,8 @@
 
 <body>
     <header>
-    
+    	Hello how are You?? 
+    	<input type="submit" name="submit" /> 
            <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
                     <div class="container">
                         <div class="navbar-header">
